@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "repository": "https://github.com/mmjee/banglarbhumi-scraper.git",
-  "license": "AGPL-1.0-or-later",
+  "license": "AGPL-3.0-or-later",
   "private": false,
   "scripts": {
     "dev": "NODE_PATH=. nodemon -- --inspect dev.js"
