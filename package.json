@@ -1,0 +1,28 @@
+{
+  "name": "banglarbhumi-scraper",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mmjee/banglarbhumi-scraper.git",
+  "license": "AGPL-1.0-or-later",
+  "private": false,
+  "scripts": {
+    "dev": "NODE_PATH=. nodemon -- --inspect dev.js"
+  },
+  "dependencies": {
+    "@root/greenlock-express": "git+https://git.maharshi.ninja/root/greenlock-express.js.git#82aaf74e0dd62495007d5f42eb0e4087d107ebd6",
+    "fastify": "^3.20.2",
+    "puppeteer": "^10.2.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-adblocker": "^2.11.11",
+    "puppeteer-extra-plugin-stealth": "^2.7.8"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
